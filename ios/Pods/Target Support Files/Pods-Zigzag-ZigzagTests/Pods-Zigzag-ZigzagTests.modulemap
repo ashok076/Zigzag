@@ -1,0 +1,6 @@
+module Pods_Zigzag_ZigzagTests {
+  umbrella header "Pods-Zigzag-ZigzagTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
