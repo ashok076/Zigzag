@@ -1,8 +1,9 @@
 import React from 'react'
 import { View, Text, SafeAreaView, TouchableOpacity, TextInput, ScrollView } from 'react-native';
-import styles from './LoginOtpStyles'
 import Icons from 'react-native-vector-icons/MaterialIcons';
 import { Title } from 'react-native-paper'
+
+import styles from './LoginOtpStyles'
 
 export default class LoginOtp extends React.Component {
 

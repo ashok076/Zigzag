@@ -4,6 +4,7 @@ import { Title, Card } from 'react-native-paper'
 import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons'
 import Modal from 'react-native-modalbox'
 import styles from './HomeStyles';
+import TabBottom from '../../Navigation/Main-bottom-nav/BottomBar';
 
 export default class Homepage extends React.Component {
 
@@ -20,6 +21,7 @@ export default class Homepage extends React.Component {
     }
 
     render() {
+        const {navigation} = this.props
         return (
             <SafeAreaView style={{ flex: 1, backgroundColor: '#5B57BA' }}>
                 <StatusBar backgroundColor="#5B57BA" />
@@ -151,7 +153,8 @@ export default class Homepage extends React.Component {
                             </View>
                             <View>
                                 <TouchableOpacity
-                                    onPress={() => this.setState({ visible: false })}
+                                    // onPress={() => this.setState({ visible: false })}
+                                    onPress={()=>navigation.navigate("Indboxpage")}
                                     style={styles.button}>
                                     <View
                                         style={styles.buttonTouch}>

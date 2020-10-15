@@ -3,7 +3,11 @@ import { View, Text, SafeAreaView, StatusBar, ScrollView, TouchableOpacity, Text
 import Icons from 'react-native-vector-icons/MaterialIcons';
 import { Card, } from 'react-native-paper'
 import { Title } from 'react-native-paper'
+
 import styles from './RecipientStyles'
+import { BottomNav } from "../../Navigation/Main-bottom-nav/BottomStack";
+
+
 export default class RecipientForm extends React.Component {
 
     initialState = {
@@ -117,7 +121,7 @@ export default class RecipientForm extends React.Component {
                                 <TextInput
                                     placeholder="You have note for shipper? put here"
                                     onChangeText={(text) => this.setState({ RecipNotes: text })}
-                                    style={styles.otpInput}
+                                    style={styles.otpInput,{height:55}}
                                 />
                             </View>
                         </View>
@@ -133,6 +137,7 @@ export default class RecipientForm extends React.Component {
                         </TouchableOpacity>
                     </Card>
                 </ScrollView>
+                <BottomNav />
             </SafeAreaView>
         )
     }
