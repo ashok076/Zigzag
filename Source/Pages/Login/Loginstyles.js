@@ -5,7 +5,7 @@ const deviceWidth = Dimensions.get('window').width;
 
 const styles = StyleSheet.create({
 
-    wrapper: {},
+    wrapper: { },
     slide: {
         justifyContent: 'center',
         alignItems: 'center',
@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+        width:'100%',
         backgroundColor: '#97CAE5'
     },
     slide3: {

@@ -6,7 +6,7 @@ import {
     GoogleSigninButton,
     statusCodes,
 } from '@react-native-community/google-signin';
-import FontAwesome from 'react-native-vector-icons/FontAwesome'
+import Feather from 'react-native-vector-icons/Feather'
 import RenderSwiper from './LoginContainer'
 
 import styles from './Loginstyles';
@@ -26,80 +26,97 @@ export default class Login extends React.Component {
         }
     }
 
+    validatephone(num) {
+        debugger
+        var ldata = ''
+            ldata = num
+            if (num.charAt(num.length - 1) == '.' || num.charAt(num.length - 1) == ' ' || num.charAt(num.length - 1) == ' ') {
+                ldata = num.substring(0, num.length - 1);
+            }
+            this.setState({
+                contact: ldata
+            })
+    }
+
+    sendOtp(){
+        if(this.state.contact.length == 10){
+            this.props.navigation.navigate("LoginOtp", { Login: this.state.contact })
+        }
+        else{
+            alert('Contact number must be 10 digits')
+        }
+        
+    }
+
     render() {
-        const {navigation} =this.props
+        const { navigation } = this.props
         return (
             <SafeAreaView style={styles.container}>
                 <ScrollView keyboardShouldPersistTaps="handled">
-                    <View
+                 
+                        <View
                         style={{
-                            justifyContent: 'center',
-                            alignItems: 'center',
-                            flex: 1
+                            flex: 1,width:'100%',marginTop:'10%'
                         }}>
                         <Image
                             source={require('../../Images/Login/Logo.png')}
-                            style={{
-                                width: 200,
-                                height: 90,
-                            }}
+                            style={{width:175,height:70,alignSelf:'center'}}
                         />
                     </View>
-                    <RenderSwiper />
-                    <View style={{
-                        alignSelf: 'center',
-                        justifyContent: 'center',
-                        marginTop: '10%',
-                        width: '96%',
-                    }}>
-                        <Text style={{ fontSize: 22, marginLeft: '3%' }}>Welcome to ZigZag 👋</Text>
-                    </View>
-                    <View
-                        style={{
+                        <RenderSwiper />
+                        <View style={{
                             alignSelf: 'center',
                             justifyContent: 'center',
-                            marginTop: '10%',
-                            width: '100%',
+                            marginTop: '20%',
+                            width: '96%',
+                           
                         }}>
+                            <Text style={{ fontSize: 22, marginLeft: '3%' }}>Welcome to ZigZag 👋</Text>
 
+                        </View>
                         <View
                             style={{
-                                width: '90%',
-                                margin: '4%',
-                                borderColor: '#b0b5b7',
-                                borderBottomColor: '#b0b5b7',
-                                flexDirection: 'row'
+                                alignSelf: 'center',
+                                justifyContent: 'center',
+                                marginTop: '10%',
+                                width: '100%',
                             }}>
-                            <PhoneInput
-                                ref={this.state.contact}
-                                defaultCode="IN"
-                                onChangeText={(text) => {
-                                    this.setState({ contact: text })
-                                }}
-                                autoFocus
-                                // textInputStyle={{ backgroundColor:'#ffffff' }}
-                                // codeTextStyle ={{backgroundColor:'#ffffff'}}
-                                // flagButtonStyle={{ borderWidth: 1, borderRadius: 15, marginRight: '5%', width: '30%', borderColor: '#afb3b9' }}
-                                withShadow
-                            />
-                            <TouchableOpacity 
-                            onPress={()=>navigation.navigate("LoginOtp",{Login:this.state.contact})}
-                            style={{ alignSelf: 'center', borderColor: '#DEDEDE', marginLeft: '3%' }}>
-                                <FontAwesome
-                                    name="check"
-                                    style={{ alignSelf: 'center', fontSize: 35, }}
+
+                            <View
+                                style={{
+                                    width: '90%',
+                                    margin: '4%',
+                                    borderColor: '#b0b5b7',
+                                    borderBottomColor: '#b0b5b7',
+                                    flexDirection: 'row'
+                                }}>
+                                <PhoneInput
+                                    // ref={this.state.contact}
+                                    value ={this.state.contact}
+                                    defaultCode="IN"
+                                    onChangeText={(text) => {this.validatephone(text)}}
+                                    autoFocus
+                                    withShadow
                                 />
-                            </TouchableOpacity>
+                                <TouchableOpacity
+                                    onPress={() => this.sendOtp()}
+                                    style={{ alignSelf: 'center', borderColor: '#DEDEDE', marginLeft: '3%' }}>
+                                    <Feather
+                                        name="check"
+                                        style={{ alignSelf: 'center', fontSize: 35, }}
+                                    />
+                                </TouchableOpacity>
+                            </View>
+                            <View style={{ alignSelf: 'center', marginTop: '3%', padding: '3%' }}>
+                                <GoogleSigninButton
+                                    style={{ width: 192, height: 48, borderRadius: 30 }}
+                                    size={GoogleSigninButton.Size.Wide}
+                                    color={GoogleSigninButton.Color.Light}
+                                    onPress={this._signIn}
+                                    disabled={this.state.isSigninInProgress} />
+                            </View>
                         </View>
-                        <View style={{ alignSelf: 'center', marginTop: '3%', padding: '3%' }}>
-                            <GoogleSigninButton
-                                style={{ width: 192, height: 48, borderRadius: 30 }}
-                                size={GoogleSigninButton.Size.Wide}
-                                color={GoogleSigninButton.Color.Light}
-                                onPress={this._signIn}
-                                disabled={this.state.isSigninInProgress} />
-                        </View>
-                    </View>
+
                 </ScrollView>
             </SafeAreaView>
         )

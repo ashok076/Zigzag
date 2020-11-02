@@ -1,4 +1,4 @@
-#Wed Oct 14 00:48:11 IST 2020
-base.0=/Users/avigma/Documents/Niral/Zigzag/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Mon Nov 02 10:39:30 IST 2020
+base.0=/Users/avigma/Documents/Niral/Zigzag/android/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

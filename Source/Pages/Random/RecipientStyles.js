@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         alignSelf: 'center',
         alignItems: 'center',
         margin: '5%',
-        marginTop:'10%',
+        marginTop:'5%',
         shadowColor: '#000',
         shadowOffset: { width: 1, height: 1 },
         shadowOpacity:  0.4,
@@ -60,6 +60,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
       },
       otpInput:{ width: '100%', borderWidth: 0.5, borderColor: 'gray', height: 55, fontSize: 20, borderRadius: 10, alignSelf: 'center', fontWeight: '600', fontWeight:'bold' },
+      Note:{ width: '100%', borderWidth: 0.5, borderColor: 'gray', height: 150, fontSize: 16, borderRadius: 10,fontWeight: '600', fontWeight:'bold',textAlignVertical:'top' },
 })
 
 export default styles;

@@ -1,0 +1,126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zigzag"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+12-->[:react-native-maps] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-81
+12-->[:react-native-maps] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:22-78
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+13-->[com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+14
+15    <uses-feature
+15-->[com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+16        android:glEsVersion="0x00020000"
+16-->[com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+17        android:required="true" />
+17-->[com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+18
+19    <application
+19-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:6:5-34:19
+20        android:name="com.zigzag.MainApplication"
+20-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:7:7-38
+21        android:allowBackup="false"
+21-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:11:7-34
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/519542c2d64391d2c2b720bc1feab3cf/core-1.2.0/AndroidManifest.xml:24:18-86
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:9:7-41
+24        android:label="@string/app_name"
+24-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:8:7-39
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:10:7-52
+26        android:theme="@style/AppTheme" >
+26-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:12:7-38
+27        <meta-data
+27-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:14:8-16:63
+28            android:name="com.google.android.geo.API_KEY"
+28-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:15:6-51
+29            android:value="AIzaSyBmxjW5gxn8S1hGEw7Ts_WWxaCdAly5Kvs" />
+29-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:16:6-61
+30
+31        <uses-library
+31-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:18:9-87
+32            android:name="org.apache.http.legacy"
+32-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:18:23-60
+33            android:required="false" />
+33-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:18:61-85
+34
+35        <activity
+35-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:20:7-30:18
+36            android:name="com.zigzag.MainActivity"
+36-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:21:9-37
+37            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+37-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:23:9-86
+38            android:label="@string/app_name"
+38-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:22:9-41
+39            android:launchMode="singleTask"
+39-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:24:9-40
+40            android:windowSoftInputMode="adjustResize" >
+40-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:25:9-51
+41            <intent-filter>
+41-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:26:9-29:25
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:27:13-65
+42-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:27:21-62
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:28:13-73
+44-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:28:23-70
+45            </intent-filter>
+46        </activity>
+47        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+47-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:31:7-84
+47-->/Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:31:17-81
+48        <activity
+48-->[com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+49            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+49-->[com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+50            android:excludeFromRecents="true"
+50-->[com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+51            android:exported="false"
+51-->[com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+52-->[com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+53        <!--
+54            Service handling Google Sign-In user revocation. For apps that do not integrate with
+55            Google Sign-In, this service will never be started.
+56        -->
+57        <service
+57-->[com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+58            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+58-->[com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+59            android:exported="true"
+59-->[com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+60            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+60-->[com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+61
+62        <activity
+62-->[com.google.android.gms:play-services-base:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fdeb41e37b664f2e27960f928ed48f3a/jetified-play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+63            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+63-->[com.google.android.gms:play-services-base:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fdeb41e37b664f2e27960f928ed48f3a/jetified-play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+64            android:exported="false"
+64-->[com.google.android.gms:play-services-base:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fdeb41e37b664f2e27960f928ed48f3a/jetified-play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+65            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+65-->[com.google.android.gms:play-services-base:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fdeb41e37b664f2e27960f928ed48f3a/jetified-play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+66
+67        <meta-data
+67-->[com.google.android.gms:play-services-basement:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/61fa5b5cf5710cce6cff59b224d595a6/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+68            android:name="com.google.android.gms.version"
+68-->[com.google.android.gms:play-services-basement:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/61fa5b5cf5710cce6cff59b224d595a6/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+69            android:value="@integer/google_play_services_version" />
+69-->[com.google.android.gms:play-services-basement:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/61fa5b5cf5710cce6cff59b224d595a6/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+70    </application>
+71
+72</manifest>

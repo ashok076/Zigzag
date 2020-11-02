@@ -6,11 +6,8 @@ const deviceWidth = Dimensions.get('window').width;
 
 const styles = StyleSheet.create({
     modal: {
-        marginTop:'55%',
         backgroundColor: '#f3f3f3',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: deviceHeight * 35 / 100,
+        height: deviceHeight * 90 / 100,
         width: deviceWidth * 100 / 100,
         borderRadius:30,
         borderBottomLeftRadius:0,
@@ -18,13 +15,14 @@ const styles = StyleSheet.create({
 
     },
     titleView: {
-        width: '100%',
-        height: 60,
-        justifyContent: 'center',
-        padding: 15,
-       backgroundColor:'#5B57BA',
-        flexDirection:'row',
-    },
+      width: '100%',
+      height: 60,
+      justifyContent: 'center',
+      padding: 15,
+      backgroundColor: '#5B57BA',
+      flexDirection: 'row',
+      justifyContent:'space-between'
+  },
     container: {
         backgroundColor: 'white',
         paddingTop: 12,
@@ -34,7 +32,7 @@ const styles = StyleSheet.create({
    
     title: {
         fontFamily: 'Manrope-ExtraLight_Bold',
-        fontSize: 24,
+        fontSize: 18,
         color: '#ffffff',
     },
     rowObjectRoot: {
@@ -43,11 +41,10 @@ const styles = StyleSheet.create({
           alignSelf:'flex-end',
           
       },
-      rowObject:{
-        flexDirection: 'row',
+      rowObject: {
+        marginLeft:'45%',
         alignItems: 'center',
-        alignSelf:'center',
-      },
+    },
       overlay: {
         backgroundColor: 'rgba(0,0,0,0.2)',
         flex: 1,

@@ -3,13 +3,14 @@ import { View, Text, SafeAreaView, StatusBar, Image, FlatList } from 'react-nati
 import { Title, Card } from 'react-native-paper'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 import styles from './IndboxStyles';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
-const ldata = [{ id: 1, image: require('../../Images/Chat/user.png'), name: 'Ashok', message: 'Hi', dt: '12/20' },
-{ id: 2, image: require('../../Images/Chat/user1.png'), name: 'Sandip', message: 'Hello', dt: 'Toady' },
-{ id: 3, image: require('../../Images/Chat/user2.png'), name: 'Sumit', message: 'How are you', dt: 'Today' },
-{ id: 4, image: require('../../Images/Chat/user3.png'), name: 'Niral', message: 'Busy', dt: 'Today' },
-{ id: 5, image: require('../../Images/Chat/user4.png'), name: 'Yash', message: 'Mark', dt: 'Today' },
-{ id: 6, image: require('../../Images/Chat/user2.png'), name: 'Kumar', message: ':)', dt: 'Today' }]
+const ldata = [{ id: 1, image: require('../../Images/Chat/user.png'), name: 'Mark Duei', message: 'Hi', dt: 'Today' },
+{ id: 2, image: require('../../Images/Chat/user1.png'), name: 'Frank Gerry', message: 'Hello', dt: 'Today' },
+{ id: 3, image: require('../../Images/Chat/user2.png'), name: 'Jane Kasmir', message: 'How are you', dt: 'Today' },
+{ id: 4, image: require('../../Images/Chat/user3.png'), name: 'Verra Nguyen', message: 'Busy', dt: 'Today' },
+{ id: 5, image: require('../../Images/Chat/user4.png'), name: 'Sabrina Onk', message: 'Mark', dt: 'Today' },
+{ id: 6, image: require('../../Images/Chat/user2.png'), name: 'Kumar', message: ':)', dt: '12/20' }]
 
 export default class Indboxpage extends React.Component {
 
@@ -25,9 +26,9 @@ export default class Indboxpage extends React.Component {
     }
 
     renderMessage(item) {
-        console.log(item.item.id)
+        console.log(item.item.dt)
         return (
-            <View style={{ flex: 1, backgroundColor: '#fafafa', borderRadius: 30, borderBottomLeftRadius: 0, borderBottomRightRadius: 0, width: '100%' }}>
+            <TouchableOpacity onPress={() => this.props.navigation.navigate("Chat", { name: "item" })} style={{ flex: 1, backgroundColor: '#fafafa', borderRadius: 30, borderBottomLeftRadius: 0, borderBottomRightRadius: 0, width: '100%' }}>
                 <View style={{ margin: '5%' }} />
                 <View style={{ flexDirection: 'row', width: '100%' }}>
                     <View style={{ width: '20%', }}>
@@ -47,13 +48,26 @@ export default class Indboxpage extends React.Component {
                             <Text style={{ fontFamily: 'Manrope-ExtraLight_Regular', fontSize: 14 }}>{item.item.message}</Text>
                         </View>
                     </View>
-                    <View style={{ width: '20%', alignSelf: 'center' }}>
-                        <Text>{item.item.dt}</Text>
-                    </View>
+
+
+                    {item.item.dt == 'Today' ?
+                        <View style={{ width: '20%', alignSelf: 'center' }}>
+                            <Text>{item.item.dt}</Text>
+                        </View>
+                        :
+                        <View style={{ width: '10%', alignSelf: 'center' }}>
+                            <View style={{ width: '80%', backgroundColor: '#393690', paddingTop: '20%',paddingBottom:'20%' ,borderRadius:10}}>
+                                <MaterialCommunityIcons
+                                    name="delete-outline"
+                                    style={{ fontSize: 22, color: '#ffffff', alignSelf: 'center' }}
+                                />
+                            </View>
+                        </View>
+                    }
 
                 </View>
                 <View style={{ width: '80%', alignSelf: 'center', borderWidth: 1, marginTop: '5%', borderColor: '#00000014' }} />
-            </View>
+            </TouchableOpacity>
         )
     }
 
@@ -77,10 +91,10 @@ export default class Indboxpage extends React.Component {
                 </View>
 
                 <View style={{ flex: 1, backgroundColor: '#fafafa', borderRadius: 30, borderBottomLeftRadius: 0, borderBottomRightRadius: 0, width: '100%' }}>
-                    <View style={{ margin: '5%' }}>
+                    <View style={{ marginTop: '10%', marginLeft: '5%' }}>
                         <Text style={{ fontFamily: 'Manrope-ExtraLight_Bold', fontSize: 14 }}>Your Chat</Text>
                     </View>
-                    <View style={{ flexDirection: 'row', marginTop: '10%', width: '100%' }}>
+                    {/* <View style={{ flexDirection: 'row', width: '100%', marginTop: '5%' }}>
                         <View style={{ width: '20%', }}>
                             <Image source={require('../../Images/Chat/user.png')}
                                 style={{
@@ -90,7 +104,7 @@ export default class Indboxpage extends React.Component {
 
                                 }} />
                         </View>
-                        <View style={{ marginLeft: '4%', width: '60%' }}>
+                        <View style={{ marginLeft: '4%', width: '65%' }}>
                             <View style={{ marginTop: '2%' }}>
                                 <Text style={{ fontFamily: 'Manrope-ExtraLight_Regular', fontSize: 16 }}>Mark Duei</Text>
                             </View>
@@ -107,15 +121,15 @@ export default class Indboxpage extends React.Component {
                                 <View style={{ width: '80%', backgroundColor: '#393690', padding: '5%' }}>
                                     <MaterialCommunityIcons
                                         name="delete-outline"
-                                        style={{ fontSize: 22, color: '#ffffff' }}
+                                        style={{ fontSize: 22, color: '#ffffff', alignSelf: 'center' }}
                                     />
                                 </View>
                             </View>
-                        }
-                          <View style={{ width: '80%', alignSelf: 'center', borderWidth: 1, marginTop: '5%', borderColor: '#00000014' }} />
-                   
-                </View>
-                <FlatList
+                        } */}
+                        {/* <View style={{ width: '80%', alignSelf: 'center', borderWidth: 1, marginTop: '5%', borderColor: '#00000014' }} /> */}
+                    {/* </View> */}
+                    {/* <View style={{ width: '80%', alignSelf: 'center', borderWidth: 1, marginTop: '5%', borderColor: '#00000014' }} /> */}
+                    <FlatList
                         data={ldata}
                         renderItem={(item) => this.renderMessage(item)}
                         keyExtractor={(id) => id.toString()}

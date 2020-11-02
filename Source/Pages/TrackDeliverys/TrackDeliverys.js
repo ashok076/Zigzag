@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, SafeAreaView, StatusBar, ScrollView, TouchableOpacity } from 'react-native'
+import { View, Text, SafeAreaView, StatusBar, ScrollView, TouchableOpacity ,Image } from 'react-native'
 import { Title, Card, ProgressBar, Colors } from 'react-native-paper'
 import Icons from 'react-native-vector-icons/MaterialIcons';
 
@@ -19,6 +19,8 @@ export default class TrackDeliverys extends React.Component {
     }
 
     render() {
+        const {navigation} =this.props;
+        
         return (
             <SafeAreaView style={styles.container}>
                     <View style={styles.titleView}>
@@ -37,7 +39,7 @@ export default class TrackDeliverys extends React.Component {
                                     <Text style={{ color: '#ffffff' }}>ZigZag is delivering your package</Text>
                                 </View>
                                 <View style={{ padding: '5%' }}>
-                                    <ProgressBar progress={0.5} color={"#837ED9"} />
+                                    <ProgressBar progress={0.5} color={"#837ED9"}  />
                                 </View>
                                 <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
                                     <View >
@@ -50,10 +52,11 @@ export default class TrackDeliverys extends React.Component {
                             </Card>
                         </View>
                         <View style={{ margin: '5%',marginTop:'10%' }}>
-                            <Card>
+                            <TouchableOpacity onPress={()=>navigation.navigate("MapDeliver")} style={styles.cardViewText}>
                                 <View style={{ flexDirection: 'row',width:'100%' }}>
                                     <View style={{alignSelf:'center',marginTop:'5%',width:'20%'}}>
                                         <Icons name="radio-button-checked" style={{ fontSize: 25, alignSelf: 'center', color: '#393690' }} />
+                                        <View style={{height:30,borderLeftWidth:3,alignSelf:'center',borderColor:'#D8D8D8'}} />
                                     </View>
                                     <View style={{ alignSelf: 'center',width:'80%'}}>
                                         <View style={{marginTop:'5%'}}>
@@ -63,31 +66,34 @@ export default class TrackDeliverys extends React.Component {
                                             <Text>08/09 - 12:08 AM by Kitani Sarasvati</Text>
                                         </View>
                                     </View>
+                                    
                                 </View>
-                                <View style={{ flexDirection: 'row',width:'100%',marginTop:'5%',marginBottom:'10%' }}>
-                                    <View style={{alignSelf:'center',marginTop:'5%',width:'20%'}}>
+                                <View style={{ flexDirection: 'row',width:'100%',marginBottom:'10%' }}>
+                                    <View style={{alignSelf:'center',width:'20%'}}>
+                                    <View style={{height:40,borderLeftWidth:3,alignSelf:'center',borderColor:'#D8D8D8'}} />
                                         <Icons name="radio-button-checked" style={{ fontSize: 25, alignSelf: 'center', color: '#00000014' }} />
                                     </View>
-                                    <View style={{ alignSelf: 'center',width:'80%'}}>
-                                        <View style={{marginTop:'5%'}}>
-                                            <Text>Package deliver</Text>
+                                    <View style={{ alignSelf: 'center',width:'80%',marginTop:'5%'}}>
+                                        <View>
+                                            <Text  style={{fontSize:16 ,fontWeight:'bold'}}>Package deliver</Text>
                                         </View>
                                         <View style={{marginTop:'5%'}}>
-                                            <Text>08/09 - 06:08AM</Text>
+                                            <Text  style={{fontSize:14}}>08/09 - 06:08AM</Text>
                                         </View>
                                     </View>
                                 </View>
-                            </Card>
+                            </TouchableOpacity>
                         </View>
                     </View>
                     <View style={styles.bodyContainer}>
                         <View style={styles.innerView}>
-                            <Card style={styles.cardViewCompleted}>
+                            <Card style={styles.cardViewBottom}>
                                 <View>
                                     <Text style={{ color: '#ffffff' }}>The package is on the way to you</Text>
                                 </View>
                                 <View style={{ padding: '5%' }}>
-                                    <ProgressBar progress={0.5} color={"#7DE0C8"} />
+                                    <ProgressBar progress={0.5} color={"#ffffff"} Icons={<Image source={require('../../Images/Account/Bit.png')}/>} />
+                                    
                                 </View>
                                 <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
                                     <View >
@@ -100,10 +106,11 @@ export default class TrackDeliverys extends React.Component {
                             </Card>
                         </View>
                         <View style={{ margin: '5%',marginTop:'10%' }}>
-                            <Card>
+                            <TouchableOpacity onPress={()=>navigation.navigate("Complete")}>
                                 <View style={{ flexDirection: 'row',width:'100%' }}>
                                     <View style={{alignSelf:'center',marginTop:'5%',width:'20%'}}>
                                         <Icons name="radio-button-checked" style={{ fontSize: 25, alignSelf: 'center', color: '#7DE0C8' }} />
+                                        <View style={{height:40,borderLeftWidth:3,alignSelf:'center',borderColor:'#7DE0C8'}} />
                                     </View>
                                     <View style={{ alignSelf: 'center',width:'80%'}}>
                                         <View style={{marginTop:'5%'}}>
@@ -114,20 +121,21 @@ export default class TrackDeliverys extends React.Component {
                                         </View>
                                     </View>
                                 </View>
-                                <View style={{ flexDirection: 'row',width:'100%',marginTop:'5%',marginBottom:'10%' }}>
-                                    <View style={{alignSelf:'center',marginTop:'5%',width:'20%'}}>
+                                <View style={{ flexDirection: 'row',width:'100%',marginBottom:'10%' }}>
+                                    <View style={{alignSelf:'center',width:'20%'}}>
+                                    <View style={{height:40,borderLeftWidth:3,alignSelf:'center',borderColor:'#7DE0C8'}} />
                                         <Icons name="radio-button-checked" style={{ fontSize: 25, alignSelf: 'center', color: '#7DE0C8' }} />
                                     </View>
                                     <View style={{ alignSelf: 'center',width:'80%'}}>
-                                        <View style={{marginTop:'5%'}}>
-                                            <Text style={{ color: "#7DE0C8" }}>Package deliver</Text>
+                                        <View>
+                                            <Text style={{fontSize:16 ,fontWeight:'bold'}}>Checkpoint Destination</Text>
                                         </View>
                                         <View style={{marginTop:'5%'}}>
-                                            <Text >08/09 - 06:08AM</Text>
+                                            <Text style={{fontSize:14}} >07/09 - 07:12 PM</Text>
                                         </View>
                                     </View>
                                 </View>
-                            </Card>
+                            </TouchableOpacity>
                         </View>
                     </View>
                 </ScrollView>

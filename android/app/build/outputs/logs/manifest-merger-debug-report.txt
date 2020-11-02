@@ -1,13 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:1:1-27:12
-MERGED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:1:1-27:12
-MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:8:1-18:12
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/bd2cab46fd45b530a274001375333ead/flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/dd7dfafbb0af41b4347f18654ea5c436/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
+ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:1:1-37:12
+MERGED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:1:1-37:12
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1521ea22361ff101daeb3222ad22f96d/jetified-flipper-0.54.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b0e545b1aadd9b5d296296ec05f6986b/jetified-flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/cd96642e8a738868497e87ae978cb2c4/jetified-flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-maps] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:react-native-community_google-signin] /Users/avigma/Documents/Niral/Zigzag/node_modules/@react-native-community/google-signin/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-community_masked-view] /Users/avigma/Documents/Niral/Zigzag/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
@@ -15,59 +16,63 @@ MERGED from [:react-native-reanimated] /Users/avigma/Documents/Niral/Zigzag/node
 MERGED from [:react-native-safe-area-context] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.63.3] /Users/avigma/.gradle/caches/transforms-2/files-2.1/f6d554cf06b8a2f4fd0f6ba19c818093/jetified-react-native-0.63.3/AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [org.webkit:android-jsc:r245459] /Users/avigma/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/03aa51752e7d7098a02114b07907dabd/stetho-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/e9f56679cbe795a6f7c93e9a035f66f2/fresco-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/559ddc4b7f576fedc63e05921b88e895/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/0288f1bca211d259126211029f92054c/drawee-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/766471e6648d662c31b10c1bbc5126fe/nativeimagefilters-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/57a87fccccbdbe36e69f72b01ce521f1/memory-type-native-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/0abe31decb23fc939dbab3bf21d1ccec/memory-type-java-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/3b508a8e13388bdc4e88ee330cec4cdc/imagepipeline-native-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/104429b66e46c675401dada578683150/memory-type-ashmem-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fe90bfac000734a7d0d9c150b7915ff6/imagepipeline-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/34efa7b8fb78d46cf2b753de7fbfc5a5/nativeimagetranscoder-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/237bbc58c0787eee6b78f947e2baeeaa/imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/65f592cbf7e10992754db73be6c6ba25/soloader-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:2:1-13:12
-MERGED from [com.google.android.material:material:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b1b165607eae60d70e4267b97e24514b/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/28888a6f6660db47b3788df392c672a7/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/efb592adf2592d134c27edc4a56e19d2/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7e873024a2fa5e8dabdf91fac34a60c5/play-services-auth-17.0.0/AndroidManifest.xml:17:1-39:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1a6288e355b9d29da99eeeeaa362fac1/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/937c92424a6f323df9bafb2747bbb019/play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/a5841d1417e823e700e7ed3e71829aa8/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/d5ba85c65bcee418e72727f9a95266cf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/8cd6316737e8f518184be95be51b9ee8/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/37aaca75d3d19faa6fb296103cea95d8/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c062602fe4e1f75f724363688044d993/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c99af001058cd5265376dded8456f828/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/faa15558a5d57e35e462c9e1f0248694/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/40f1c5d439eea30faeaafe93e7bdf45f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/89bcabef273c834c0566b445ed28172c/activity-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/4300f0cd89d6453d731712a999b6e53f/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/e0a79d4379c4eef3803202a497c19313/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/820068d4be612586a05a9daff9be7b77/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/6bd464ed06f075f4e42b3fde6a89e60a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/3b41f2ef3d4a30256bbd9d1017371108/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/db36fbbf4470b1ce63fe644e40ae81d3/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/304e6293e0820147023aa187c0f862e1/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7ce8a2eb9e81825ec9bcc373c597a746/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/124ee19a63f3e171c196264ecc845daa/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/4ce17f8b4390b23da9bedc3cee010ec1/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/4da6ddd3c71dbaec92b0fdf3bbca4ce7/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2ef959591ee3dfd7e7d0f130ebacb270/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/babedcb26ba2505096ea9fb87ec93180/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/af447a34f31155d4afa5e460ea43d322/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c114d4501470930b3986c4f9bd2da0fd/ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/avigma/.gradle/caches/transforms-2/files-2.1/0a7ad1398a3fd9410d93a05e067ad9bc/jetified-react-native-0.63.3/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/38a48dbc860fe0f1f1efdce87916ebc2/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/05d2ff3ff6e4969861c17b53bbb477ba/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/8141d7d0384a945683b08846fb6c62a8/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fdeb41e37b664f2e27960f928ed48f3a/jetified-play-services-base-17.2.1/AndroidManifest.xml:17:1-29:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/avigma/.gradle/caches/transforms-2/files-2.1/e7ef4c8aec6ae2b12b32f5f7a02ae2f6/jetified-android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/bb5411827c0339d8adea343068ef4ae7/jetified-flipper-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/4a1010494217354c33e7cd8eb17ea5b9/jetified-stetho-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/3db8d23911e7639a57ac7ade8cdc4b22/jetified-fresco-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/dd5c8da482f63cad678ecd5812624f48/jetified-imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b8b9b7e1e9973a6df339d0a86e34f4ab/jetified-drawee-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2e228bec5f5d567a59f40d86156d64c3/jetified-nativeimagefilters-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/796f42ca1ee0ab3de69b9f476e0068af/jetified-memory-type-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/a1f31513dafbfeaba6f3541f368e901b/jetified-memory-type-java-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/3bf213d69d05de4584872b5f11a586ae/jetified-imagepipeline-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/d19051a9f1e6ee6e6366e909c51f19cb/jetified-memory-type-ashmem-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7379b41bf230efef8f7a0fb8c38d4a26/jetified-imagepipeline-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/02760dba70e9fad9ee59dc33d8da1a7e/jetified-nativeimagetranscoder-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/019c25e80f64792266cfbba7ff0b7078/jetified-imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1f9095562c8afc1a2e9d2e823ba211f9/jetified-soloader-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/58eb5792a19838194364070c92f216bf/jetified-soloader-0.9.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b5d29781b16f6e6bfbf119253b273514/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fc95f0e032225dc2c7c22afbfdb31fa4/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/afe47620bcf1e5e2fd90f044b1faac7d/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/98238b8a32aa89ad8f66a169389965ad/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/206f44bab7c1e7989bca28f40040593b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/dbb2d50e260f801b8c6781ea8ef3e810/jetified-play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c1a77b3c1148fea8f0f298e40aad5d7c/jetified-play-services-tasks-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c9aca96b67278e1a082cd99c9ad4d38b/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/61fa5b5cf5710cce6cff59b224d595a6/jetified-play-services-basement-17.2.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/56aa858ad11ae95d4aed960208b866b7/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fc8b98fa1d0d659a80b708e206647ecc/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/883988662ca65b19e87972bdc938c4b3/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2f9e448315178fa6b4234b3459b778f4/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/bcb70fbf4324733193b125d0996304de/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b230f7c74754aa0b421d83557df1f73b/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2fcd3a48d9edcf1aa6dc4ea90ee584f2/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/956d98d727a68080df87e7d8410efdb5/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/337fb054bb21eaede749dd65aaea9fcd/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/f8b4568855b7c59c04edb34298b7d471/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/3e0667e4edc721422f45c63ca8d79fdf/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/519542c2d64391d2c2b720bc1feab3cf/core-1.2.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/31ebe3e4a9db3052659e49994522284e/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/359be921d71f06ca653922feb0243c87/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b24a3188d07b158823a4ada8948203f4/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/e3387cae8fb589c754fda7db0b431141/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/92278e79fe11b74801900a22b1aa39d3/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/97a21c1956146657de6f4f33ac0a7006/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/90bed55493d65d4716feb9c2dc9084cb/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2c30082cf6e077f1dd74976142419f5c/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c556a8bd3d4640db05e4fd1e68d712e1/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fb1ee1edf91613a99599db0cbdcda634/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/avigma/.gradle/caches/transforms-2/files-2.1/ec5091c08cae729028fc12bbd60ec8a7/jetified-android-maps-utils-0.5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/d90a0056065a8323812a5961afcd9f5c/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/858dd2e1ae875af37fae843d7ac5d971/jetified-ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
 INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/debug/AndroidManifest.xml:2:1-8:12
@@ -78,46 +83,58 @@ INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/debug/Android
 		INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:1:1-37:12
 		INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:1:1-37:12
 		INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:15:5-67
-MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1521ea22361ff101daeb3222ad22f96d/jetified-flipper-0.54.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1521ea22361ff101daeb3222ad22f96d/jetified-flipper-0.54.0/AndroidManifest.xml:15:5-67
+MERGED from [:react-native-maps] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from [com.facebook.react:react-native:0.63.3] /Users/avigma/.gradle/caches/transforms-2/files-2.1/f6d554cf06b8a2f4fd0f6ba19c818093/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.63.3] /Users/avigma/.gradle/caches/transforms-2/files-2.1/f6d554cf06b8a2f4fd0f6ba19c818093/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:11:5-20
-MERGED from [com.google.android.material:material:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7e873024a2fa5e8dabdf91fac34a60c5/play-services-auth-17.0.0/AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7e873024a2fa5e8dabdf91fac34a60c5/play-services-auth-17.0.0/AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/a5841d1417e823e700e7ed3e71829aa8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/a5841d1417e823e700e7ed3e71829aa8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/d5ba85c65bcee418e72727f9a95266cf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/d5ba85c65bcee418e72727f9a95266cf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:6:5-34:19
+MERGED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:6:5-34:19
+MERGED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:6:5-34:19
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/avigma/.gradle/caches/transforms-2/files-2.1/0a7ad1398a3fd9410d93a05e067ad9bc/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/avigma/.gradle/caches/transforms-2/files-2.1/0a7ad1398a3fd9410d93a05e067ad9bc/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fdeb41e37b664f2e27960f928ed48f3a/jetified-play-services-base-17.2.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fdeb41e37b664f2e27960f928ed48f3a/jetified-play-services-base-17.2.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/58eb5792a19838194364070c92f216bf/jetified-soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/58eb5792a19838194364070c92f216bf/jetified-soloader-0.9.0/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b5d29781b16f6e6bfbf119253b273514/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b5d29781b16f6e6bfbf119253b273514/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/dbb2d50e260f801b8c6781ea8ef3e810/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/dbb2d50e260f801b8c6781ea8ef3e810/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c1a77b3c1148fea8f0f298e40aad5d7c/jetified-play-services-tasks-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c1a77b3c1148fea8f0f298e40aad5d7c/jetified-play-services-tasks-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c9aca96b67278e1a082cd99c9ad4d38b/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c9aca96b67278e1a082cd99c9ad4d38b/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/61fa5b5cf5710cce6cff59b224d595a6/jetified-play-services-basement-17.2.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/61fa5b5cf5710cce6cff59b224d595a6/jetified-play-services-basement-17.2.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/519542c2d64391d2c2b720bc1feab3cf/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/519542c2d64391d2c2b720bc1feab3cf/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/359be921d71f06ca653922feb0243c87/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/359be921d71f06ca653922feb0243c87/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/avigma/.gradle/caches/transforms-2/files-2.1/ec5091c08cae729028fc12bbd60ec8a7/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/avigma/.gradle/caches/transforms-2/files-2.1/ec5091c08cae729028fc12bbd60ec8a7/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/519542c2d64391d2c2b720bc1feab3cf/core-1.2.0/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:8:7-39
 		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:8:7-39
@@ -142,42 +159,58 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/avig
 	android:name
 		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:7:7-38
 		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:7:7-38
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:14:8-16:63
+	android:value
+		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:16:6-61
+	android:name
+		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:15:6-51
+uses-library#org.apache.http.legacy
+ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:18:9-87
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:18:61-85
+	android:name
+		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:18:23-60
 activity#com.zigzag.MainActivity
-ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:13:7-23:18
+ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:20:7-30:18
 	android:label
-		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:22:9-41
 	android:launchMode
-		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:17:9-40
+		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:24:9-40
 	android:windowSoftInputMode
-		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:18:9-51
+		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:25:9-51
 	android:configChanges
-		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:16:9-86
+		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:23:9-86
 	android:name
-		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:21:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:19:9-22:25
+ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:26:9-29:25
 action#android.intent.action.MAIN
-ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:20:13-65
+ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:27:13-65
 	android:name
-		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:20:21-62
+		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:27:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:21:13-73
+ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:28:13-73
 	android:name
-		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:21:23-70
+		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:28:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:24:7-84
+ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:31:7-84
 	android:name
-		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:24:17-81
+		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml:31:17-81
 uses-sdk
 INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/main/AndroidManifest.xml
-MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/bd2cab46fd45b530a274001375333ead/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/bd2cab46fd45b530a274001375333ead/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/dd7dfafbb0af41b4347f18654ea5c436/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/dd7dfafbb0af41b4347f18654ea5c436/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1521ea22361ff101daeb3222ad22f96d/jetified-flipper-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1521ea22361ff101daeb3222ad22f96d/jetified-flipper-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b0e545b1aadd9b5d296296ec05f6986b/jetified-flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b0e545b1aadd9b5d296296ec05f6986b/jetified-flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/cd96642e8a738868497e87ae978cb2c4/jetified-flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/cd96642e8a738868497e87ae978cb2c4/jetified-flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-maps] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_google-signin] /Users/avigma/Documents/Niral/Zigzag/node_modules/@react-native-community/google-signin/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-community_google-signin] /Users/avigma/Documents/Niral/Zigzag/node_modules/@react-native-community/google-signin/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-community_masked-view] /Users/avigma/Documents/Niral/Zigzag/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -192,112 +225,120 @@ MERGED from [:react-native-screens] /Users/avigma/Documents/Niral/Zigzag/node_mo
 MERGED from [:react-native-screens] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.63.3] /Users/avigma/.gradle/caches/transforms-2/files-2.1/f6d554cf06b8a2f4fd0f6ba19c818093/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.63.3] /Users/avigma/.gradle/caches/transforms-2/files-2.1/f6d554cf06b8a2f4fd0f6ba19c818093/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [org.webkit:android-jsc:r245459] /Users/avigma/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] /Users/avigma/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/03aa51752e7d7098a02114b07907dabd/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/03aa51752e7d7098a02114b07907dabd/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/e9f56679cbe795a6f7c93e9a035f66f2/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/e9f56679cbe795a6f7c93e9a035f66f2/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/559ddc4b7f576fedc63e05921b88e895/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/559ddc4b7f576fedc63e05921b88e895/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/0288f1bca211d259126211029f92054c/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/0288f1bca211d259126211029f92054c/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/766471e6648d662c31b10c1bbc5126fe/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/766471e6648d662c31b10c1bbc5126fe/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/57a87fccccbdbe36e69f72b01ce521f1/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/57a87fccccbdbe36e69f72b01ce521f1/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/0abe31decb23fc939dbab3bf21d1ccec/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/0abe31decb23fc939dbab3bf21d1ccec/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/3b508a8e13388bdc4e88ee330cec4cdc/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/3b508a8e13388bdc4e88ee330cec4cdc/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/104429b66e46c675401dada578683150/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/104429b66e46c675401dada578683150/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fe90bfac000734a7d0d9c150b7915ff6/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fe90bfac000734a7d0d9c150b7915ff6/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/34efa7b8fb78d46cf2b753de7fbfc5a5/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/34efa7b8fb78d46cf2b753de7fbfc5a5/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/237bbc58c0787eee6b78f947e2baeeaa/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/237bbc58c0787eee6b78f947e2baeeaa/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/65f592cbf7e10992754db73be6c6ba25/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/65f592cbf7e10992754db73be6c6ba25/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.material:material:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b1b165607eae60d70e4267b97e24514b/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b1b165607eae60d70e4267b97e24514b/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/28888a6f6660db47b3788df392c672a7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/28888a6f6660db47b3788df392c672a7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/efb592adf2592d134c27edc4a56e19d2/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/efb592adf2592d134c27edc4a56e19d2/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7e873024a2fa5e8dabdf91fac34a60c5/play-services-auth-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7e873024a2fa5e8dabdf91fac34a60c5/play-services-auth-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1a6288e355b9d29da99eeeeaa362fac1/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1a6288e355b9d29da99eeeeaa362fac1/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/937c92424a6f323df9bafb2747bbb019/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/937c92424a6f323df9bafb2747bbb019/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/a5841d1417e823e700e7ed3e71829aa8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/a5841d1417e823e700e7ed3e71829aa8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/d5ba85c65bcee418e72727f9a95266cf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/d5ba85c65bcee418e72727f9a95266cf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/8cd6316737e8f518184be95be51b9ee8/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/8cd6316737e8f518184be95be51b9ee8/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/37aaca75d3d19faa6fb296103cea95d8/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/37aaca75d3d19faa6fb296103cea95d8/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c062602fe4e1f75f724363688044d993/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c062602fe4e1f75f724363688044d993/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c99af001058cd5265376dded8456f828/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c99af001058cd5265376dded8456f828/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/faa15558a5d57e35e462c9e1f0248694/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/faa15558a5d57e35e462c9e1f0248694/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/40f1c5d439eea30faeaafe93e7bdf45f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/40f1c5d439eea30faeaafe93e7bdf45f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/89bcabef273c834c0566b445ed28172c/activity-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/89bcabef273c834c0566b445ed28172c/activity-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/4300f0cd89d6453d731712a999b6e53f/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/4300f0cd89d6453d731712a999b6e53f/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/e0a79d4379c4eef3803202a497c19313/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/e0a79d4379c4eef3803202a497c19313/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/820068d4be612586a05a9daff9be7b77/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/820068d4be612586a05a9daff9be7b77/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/6bd464ed06f075f4e42b3fde6a89e60a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/6bd464ed06f075f4e42b3fde6a89e60a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/3b41f2ef3d4a30256bbd9d1017371108/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/3b41f2ef3d4a30256bbd9d1017371108/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/db36fbbf4470b1ce63fe644e40ae81d3/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/db36fbbf4470b1ce63fe644e40ae81d3/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/304e6293e0820147023aa187c0f862e1/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/304e6293e0820147023aa187c0f862e1/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7ce8a2eb9e81825ec9bcc373c597a746/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7ce8a2eb9e81825ec9bcc373c597a746/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/124ee19a63f3e171c196264ecc845daa/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/124ee19a63f3e171c196264ecc845daa/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/4ce17f8b4390b23da9bedc3cee010ec1/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/4ce17f8b4390b23da9bedc3cee010ec1/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/4da6ddd3c71dbaec92b0fdf3bbca4ce7/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/4da6ddd3c71dbaec92b0fdf3bbca4ce7/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2ef959591ee3dfd7e7d0f130ebacb270/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2ef959591ee3dfd7e7d0f130ebacb270/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/babedcb26ba2505096ea9fb87ec93180/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/babedcb26ba2505096ea9fb87ec93180/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/af447a34f31155d4afa5e460ea43d322/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/af447a34f31155d4afa5e460ea43d322/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c114d4501470930b3986c4f9bd2da0fd/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c114d4501470930b3986c4f9bd2da0fd/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/avigma/.gradle/caches/transforms-2/files-2.1/0a7ad1398a3fd9410d93a05e067ad9bc/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/avigma/.gradle/caches/transforms-2/files-2.1/0a7ad1398a3fd9410d93a05e067ad9bc/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/38a48dbc860fe0f1f1efdce87916ebc2/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/38a48dbc860fe0f1f1efdce87916ebc2/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/05d2ff3ff6e4969861c17b53bbb477ba/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/05d2ff3ff6e4969861c17b53bbb477ba/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/8141d7d0384a945683b08846fb6c62a8/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/8141d7d0384a945683b08846fb6c62a8/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fdeb41e37b664f2e27960f928ed48f3a/jetified-play-services-base-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fdeb41e37b664f2e27960f928ed48f3a/jetified-play-services-base-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r245459] /Users/avigma/.gradle/caches/transforms-2/files-2.1/e7ef4c8aec6ae2b12b32f5f7a02ae2f6/jetified-android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/avigma/.gradle/caches/transforms-2/files-2.1/e7ef4c8aec6ae2b12b32f5f7a02ae2f6/jetified-android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/bb5411827c0339d8adea343068ef4ae7/jetified-flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/bb5411827c0339d8adea343068ef4ae7/jetified-flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/4a1010494217354c33e7cd8eb17ea5b9/jetified-stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/4a1010494217354c33e7cd8eb17ea5b9/jetified-stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/3db8d23911e7639a57ac7ade8cdc4b22/jetified-fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/3db8d23911e7639a57ac7ade8cdc4b22/jetified-fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/dd5c8da482f63cad678ecd5812624f48/jetified-imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/dd5c8da482f63cad678ecd5812624f48/jetified-imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b8b9b7e1e9973a6df339d0a86e34f4ab/jetified-drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b8b9b7e1e9973a6df339d0a86e34f4ab/jetified-drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2e228bec5f5d567a59f40d86156d64c3/jetified-nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2e228bec5f5d567a59f40d86156d64c3/jetified-nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/796f42ca1ee0ab3de69b9f476e0068af/jetified-memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/796f42ca1ee0ab3de69b9f476e0068af/jetified-memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/a1f31513dafbfeaba6f3541f368e901b/jetified-memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/a1f31513dafbfeaba6f3541f368e901b/jetified-memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/3bf213d69d05de4584872b5f11a586ae/jetified-imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/3bf213d69d05de4584872b5f11a586ae/jetified-imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/d19051a9f1e6ee6e6366e909c51f19cb/jetified-memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/d19051a9f1e6ee6e6366e909c51f19cb/jetified-memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7379b41bf230efef8f7a0fb8c38d4a26/jetified-imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7379b41bf230efef8f7a0fb8c38d4a26/jetified-imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/02760dba70e9fad9ee59dc33d8da1a7e/jetified-nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/02760dba70e9fad9ee59dc33d8da1a7e/jetified-nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/019c25e80f64792266cfbba7ff0b7078/jetified-imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/019c25e80f64792266cfbba7ff0b7078/jetified-imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1f9095562c8afc1a2e9d2e823ba211f9/jetified-soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1f9095562c8afc1a2e9d2e823ba211f9/jetified-soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/58eb5792a19838194364070c92f216bf/jetified-soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/58eb5792a19838194364070c92f216bf/jetified-soloader-0.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b5d29781b16f6e6bfbf119253b273514/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b5d29781b16f6e6bfbf119253b273514/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fc95f0e032225dc2c7c22afbfdb31fa4/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fc95f0e032225dc2c7c22afbfdb31fa4/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/afe47620bcf1e5e2fd90f044b1faac7d/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/afe47620bcf1e5e2fd90f044b1faac7d/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/98238b8a32aa89ad8f66a169389965ad/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/98238b8a32aa89ad8f66a169389965ad/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/206f44bab7c1e7989bca28f40040593b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/206f44bab7c1e7989bca28f40040593b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/dbb2d50e260f801b8c6781ea8ef3e810/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/dbb2d50e260f801b8c6781ea8ef3e810/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c1a77b3c1148fea8f0f298e40aad5d7c/jetified-play-services-tasks-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c1a77b3c1148fea8f0f298e40aad5d7c/jetified-play-services-tasks-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c9aca96b67278e1a082cd99c9ad4d38b/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c9aca96b67278e1a082cd99c9ad4d38b/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/61fa5b5cf5710cce6cff59b224d595a6/jetified-play-services-basement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/61fa5b5cf5710cce6cff59b224d595a6/jetified-play-services-basement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/56aa858ad11ae95d4aed960208b866b7/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/56aa858ad11ae95d4aed960208b866b7/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fc8b98fa1d0d659a80b708e206647ecc/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fc8b98fa1d0d659a80b708e206647ecc/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/883988662ca65b19e87972bdc938c4b3/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/883988662ca65b19e87972bdc938c4b3/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2f9e448315178fa6b4234b3459b778f4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2f9e448315178fa6b4234b3459b778f4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/bcb70fbf4324733193b125d0996304de/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/bcb70fbf4324733193b125d0996304de/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b230f7c74754aa0b421d83557df1f73b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b230f7c74754aa0b421d83557df1f73b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2fcd3a48d9edcf1aa6dc4ea90ee584f2/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2fcd3a48d9edcf1aa6dc4ea90ee584f2/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/956d98d727a68080df87e7d8410efdb5/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/956d98d727a68080df87e7d8410efdb5/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/337fb054bb21eaede749dd65aaea9fcd/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/337fb054bb21eaede749dd65aaea9fcd/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/f8b4568855b7c59c04edb34298b7d471/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/f8b4568855b7c59c04edb34298b7d471/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/3e0667e4edc721422f45c63ca8d79fdf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/3e0667e4edc721422f45c63ca8d79fdf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/519542c2d64391d2c2b720bc1feab3cf/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/519542c2d64391d2c2b720bc1feab3cf/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/31ebe3e4a9db3052659e49994522284e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/31ebe3e4a9db3052659e49994522284e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/359be921d71f06ca653922feb0243c87/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/359be921d71f06ca653922feb0243c87/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b24a3188d07b158823a4ada8948203f4/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b24a3188d07b158823a4ada8948203f4/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/e3387cae8fb589c754fda7db0b431141/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/e3387cae8fb589c754fda7db0b431141/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/92278e79fe11b74801900a22b1aa39d3/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/92278e79fe11b74801900a22b1aa39d3/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/97a21c1956146657de6f4f33ac0a7006/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/97a21c1956146657de6f4f33ac0a7006/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/90bed55493d65d4716feb9c2dc9084cb/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/90bed55493d65d4716feb9c2dc9084cb/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2c30082cf6e077f1dd74976142419f5c/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/2c30082cf6e077f1dd74976142419f5c/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c556a8bd3d4640db05e4fd1e68d712e1/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c556a8bd3d4640db05e4fd1e68d712e1/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fb1ee1edf91613a99599db0cbdcda634/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fb1ee1edf91613a99599db0cbdcda634/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/avigma/.gradle/caches/transforms-2/files-2.1/ec5091c08cae729028fc12bbd60ec8a7/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/avigma/.gradle/caches/transforms-2/files-2.1/ec5091c08cae729028fc12bbd60ec8a7/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/d90a0056065a8323812a5961afcd9f5c/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/d90a0056065a8323812a5961afcd9f5c/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/858dd2e1ae875af37fae843d7ac5d971/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/858dd2e1ae875af37fae843d7ac5d971/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
 INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -311,38 +352,54 @@ ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/debug/AndroidMan
 	android:name
 		ADDED from /Users/avigma/Documents/Niral/Zigzag/android/app/src/debug/AndroidManifest.xml:5:22-75
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
+ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1521ea22361ff101daeb3222ad22f96d/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
 	android:name
-		ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
+		ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/1521ea22361ff101daeb3222ad22f96d/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:react-native-maps] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [:react-native-maps] /Users/avigma/Documents/Niral/Zigzag/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/c47dbb173c188668dd86c58b731bef2d/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7e873024a2fa5e8dabdf91fac34a60c5/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7e873024a2fa5e8dabdf91fac34a60c5/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7e873024a2fa5e8dabdf91fac34a60c5/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7e873024a2fa5e8dabdf91fac34a60c5/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7e873024a2fa5e8dabdf91fac34a60c5/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7e873024a2fa5e8dabdf91fac34a60c5/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7e873024a2fa5e8dabdf91fac34a60c5/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7e873024a2fa5e8dabdf91fac34a60c5/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/7e873024a2fa5e8dabdf91fac34a60c5/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/b803d86cdb7a7c624773347e8b37add6/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fdeb41e37b664f2e27960f928ed48f3a/jetified-play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fdeb41e37b664f2e27960f928ed48f3a/jetified-play-services-base-17.2.1/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fdeb41e37b664f2e27960f928ed48f3a/jetified-play-services-base-17.2.1/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/fdeb41e37b664f2e27960f928ed48f3a/jetified-play-services-base-17.2.1/AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/d5ba85c65bcee418e72727f9a95266cf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/61fa5b5cf5710cce6cff59b224d595a6/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/avigma/.gradle/caches/transforms-2/files-2.1/ec5091c08cae729028fc12bbd60ec8a7/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/avigma/.gradle/caches/transforms-2/files-2.1/ec5091c08cae729028fc12bbd60ec8a7/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/d5ba85c65bcee418e72727f9a95266cf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/61fa5b5cf5710cce6cff59b224d595a6/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/avigma/.gradle/caches/transforms-2/files-2.1/d5ba85c65bcee418e72727f9a95266cf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.2.1] /Users/avigma/.gradle/caches/transforms-2/files-2.1/61fa5b5cf5710cce6cff59b224d595a6/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58

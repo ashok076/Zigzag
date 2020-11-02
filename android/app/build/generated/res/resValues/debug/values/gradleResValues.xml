@@ -6,5 +6,7 @@
     <!-- Values from build type: debug -->
     <integer name="react_native_dev_server_port">8081</integer>
     <integer name="react_native_inspector_proxy_port">8081</integer>
+    <!-- Values from default config. -->
+    <string name="maps_api_key" translatable="false">"AIzaSyBmxjW5gxn8S1hGEw7Ts_WWxaCdAly5Kvs"</string>
 
 </resources>
