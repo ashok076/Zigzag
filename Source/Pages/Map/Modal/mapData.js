@@ -213,7 +213,8 @@ export const locations =
         [
 
           {
-                title: 'Location 1', latitude: 24.86170245,
+                title: 'Location 1',
+                 latitude: 24.86170245,
                 longitude: 67.00310938,
                 markerImage:Images[4].image ,
                 weight:13

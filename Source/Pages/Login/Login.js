@@ -68,7 +68,6 @@ export default class Login extends React.Component {
                             alignSelf: 'center',
                             justifyContent: 'center',
                             marginTop: '20%',
-                            width: '96%',
                            
                         }}>
                             <Text style={{ fontSize: 22, marginLeft: '3%' }}>Welcome to ZigZag 👋</Text>
